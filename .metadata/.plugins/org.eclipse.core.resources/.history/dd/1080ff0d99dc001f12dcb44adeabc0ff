@@ -1,0 +1,7 @@
+package com.mbs.service;
+
+import java.util.List;
+
+public interface BillingService {
+    double calculateMonthlyBill(Long customerId, int month, int year);
+}

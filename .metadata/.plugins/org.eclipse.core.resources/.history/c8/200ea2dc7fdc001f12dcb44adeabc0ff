@@ -1,0 +1,18 @@
+package com.mbs.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class DailyRecord {
+	private long id;
+	
+	private User user;
+	
+	private Product product;
+	
+	private double quantity;
+	
+	private boolean absent;
+	
+
+}

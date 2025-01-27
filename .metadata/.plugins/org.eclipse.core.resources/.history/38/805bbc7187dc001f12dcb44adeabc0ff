@@ -1,0 +1,5 @@
+package com.mbs.repository;
+
+public interface ProductRepository {
+
+}
